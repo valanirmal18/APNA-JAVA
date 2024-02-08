@@ -1,0 +1,45 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "PrimeNum_func",
+      "request": "launch",
+      "mainClass": "PrimeNum_func",
+      "projectName": "APNA JAVA_9fd5cdfa"
+    },
+    {
+      "type": "java",
+      "name": "Func_overloading",
+      "request": "launch",
+      "mainClass": "Func_overloading",
+      "projectName": "APNA JAVA_9fd5cdfa"
+    },
+    {
+      "type": "java",
+      "name": "JvBasicFunc1",
+      "request": "launch",
+      "mainClass": "JvBasicFunc1",
+      "projectName": "APNA JAVA_9fd5cdfa"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "d:/VS CODE 2/APNA JAVA/PATTERNS_STAR",
+      "program": "d:/VS CODE 2/APNA JAVA/PATTERNS_STAR/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
