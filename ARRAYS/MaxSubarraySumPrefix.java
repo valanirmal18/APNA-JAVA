@@ -15,10 +15,6 @@ public class MaxSubarraySumPrefix {
             for (int j = i; j < number.length; j++) {
                 int end = j;
                 currentSum = start == 0 ? prefix[end] : prefix[end] - prefix[start - 1];
-                // for (int k = i; k <= j; k++) {
-                // currentSum += number[k];
-                // }
-                // System.out.println(currentSum);
                 if (largestNum < currentSum) {
                     largestNum = currentSum;
                 }
